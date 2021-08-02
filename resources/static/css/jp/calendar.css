@@ -1,0 +1,224 @@
+.calendar {
+	padding:0 4px 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	overflow: visible;
+	direction: ltr;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.calendar .popover {
+	min-width: 150px;
+}
+
+.calendar.calendar-rtl {
+	direction: rtl
+}
+
+.calendar.calendar-rtl table tr td span {
+	float: right
+}
+
+.calendar table {
+	width: 100%; 
+	margin: auto
+}
+
+.calendar table td,
+.calendar table th {
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	border: none;
+	padding: 4px 5px;
+	font-size: 12px
+}
+
+.calendar .calendar-header {
+	width: 100%;
+	margin-bottom: 3px;
+	background:#f9f9f9;
+}
+
+.calendar .calendar-header table {
+	width: 100%
+}
+
+.calendar .calendar-header table th {
+	font-size: 13px;
+	padding: 4px 10px 1px;
+	color:#999;
+}
+ 
+.calendar .calendar-header table th:hover {
+	background: #eee;
+	cursor: pointer
+}
+
+.calendar .calendar-header table th.disabled,
+.calendar .calendar-header table th.disabled:hover {
+	background: 0 0;
+	cursor: default;
+	color: #fff
+}
+
+.calendar .calendar-header table th.next,
+.calendar .calendar-header table th.prev {
+	width: 20px
+}
+
+.calendar .calendar-header table th.next .glyphicon, 
+.calendar .calendar-header table th.prev .glyphicon {color:#999;}
+
+.calendar .year-title {
+	font-weight: 700;
+	text-align: center;
+	height: 20px;
+	width: auto
+}
+
+.calendar .year-neighbor {
+	color: #aaa
+}
+
+.calendar .year-neighbor2,
+.calendar table.month tr td.disabled,
+.calendar table.month tr td.disabled:hover {
+	color: #ddd
+}
+
+.calendar .months-container {
+	width: 100%;
+}
+
+.calendar .month-container {
+	width: 100%;
+	text-align: center;
+	height: 200px;
+	padding: 0
+}
+
+.calendar .month-container table th:hover {
+	background: #eee;
+	cursor: pointer
+}
+.calendar .month-container .month tbody tr td:first-child {color:#ee0e0e;}
+.calendar .month-container .month tbody tr td:last-child {color:#1919e6;}
+
+.calendar table.month th.month-title {
+	font-size: 13px;
+	padding-bottom: 5px;
+	color:#333;
+}
+
+.calendar table.month th.day-header {
+	font-size: 13px
+}
+
+.calendar table.month tr td,
+.calendar table.month tr th {
+	padding: 0
+}
+
+.calendar table.month td.week-number {
+	cursor: default;
+	font-weight: 700;
+	border-right: 1px solid #eee;
+	padding: 5px
+}
+
+.calendar .round-left {
+	-webkit-border-radius: 8px 0 0 8px;
+	-moz-border-radius: 8px 0 0 8px;
+	border-radius: 8px 0 0 8px
+}
+
+.calendar .round-right {
+	-webkit-border-radius: 0 8px 8px 0;
+	-moz-border-radius: 0 8px 8px 0;
+	border-radius: 0 8px 8px 0
+}
+
+.calendar table.month tr td .day-content {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 3px 6px
+}
+
+.table-striped .calendar table.month tr td,
+.table-striped .calendar table.month tr th {
+	background-color: transparent
+}
+
+.calendar table.month td.day .day-content:hover {
+	background: rgba(0, 0, 0, .2);
+	cursor: pointer
+}
+
+.calendar table.month td.day.disabled .day-content:hover,
+.calendar table.month tr td.new,
+.calendar table.month tr td.new:hover,
+.calendar table.month tr td.old,
+.calendar table.month tr td.old:hover {
+	background: 0 0;
+	cursor: default
+}
+
+.event-tooltip-content:not(:last-child) {
+	border-bottom:1px solid #ddd;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+.event-tooltip-content .event-title {
+	font-size:13px;
+}
+.event-tooltip-content .event-content {
+	font-size:12px;
+}
+
+.calendar table.month tr td.today {
+	font-weight:bold;
+}
+.calendar table.month tr td.color1 {
+	box-shadow: #2C8FC9 0 -3px 0 0 inset;
+}
+.calendar-popover1 .event-title {
+	color:#2C8FC9;
+}
+.calendar table.month tr td.color2 {
+	box-shadow: #9CB703 0 -3px 0 0 inset;
+}
+.calendar-popover2 .event-title {
+	color:#9CB703;
+}
+.calendar table.month tr td.color3 {
+	box-shadow: #F5BB00 0 -3px 0 0 inset;
+}
+.calendar-popover3 .event-title {
+	color:#F5BB00;
+}
+.calendar table.month tr td.color4 {
+	box-shadow: #FF4A32 0 -3px 0 0 inset;
+}
+.calendar-popover4 .event-title {
+	color:#FF4A32;
+}
+.calendar table.month tr td.color5 {
+	box-shadow: #B56CE2 0 -3px 0 0 inset;
+}
+.calendar-popover5 .event-title {
+	color:#B56CE2;
+}
+.calendar table.month tr td.color6 {
+	box-shadow: #45A597 0 -3px 0 0 inset;
+}
+.calendar-popover6 .event-title {
+	color:#45A597;
+}

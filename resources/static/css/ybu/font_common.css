@@ -1,0 +1,24 @@
+@charset "utf-8";
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ html,
+ body {
+  font-family: "LiSu";
+  font-size: 100%;
+ }
+}
+html,
+body,
+input,
+mark,
+textarea,
+button,
+select {
+ font-family: "LiSu";
+ font-size: 100%;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem6YaGs126MiZpBA-UFUK0Udc1UAw.woff2) format('woff2');
+}
